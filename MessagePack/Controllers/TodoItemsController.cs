@@ -21,7 +21,7 @@ namespace MessagePack.Controllers
         }
 
         // GET: api/TodoItems
-        [HttpGet]
+        [HttpGet ("Messagepack")]
         public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
         {
             byte[] bytes = MessagePackSerializer.Serialize(_context.TodoItems.ToList()[0]);
@@ -35,7 +35,7 @@ namespace MessagePack.Controllers
         }
 
         // GET: api/TodoItems/5
-        [HttpGet("{id}")]
+        [HttpGet("Messagepack/{id}")]
         public async Task<ActionResult<TodoItem>> GetTodoItem(long id)
         {
             var todoItem = await _context.TodoItems.FindAsync(id);
@@ -51,7 +51,7 @@ namespace MessagePack.Controllers
         // PUT: api/TodoItems/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPut("{id}")]
+        [HttpPut("Messagepack/{id}")]
         public async Task<IActionResult> PutTodoItem(long id, TodoItem todoItem)
         {
             if (id != todoItem.Id)
@@ -83,7 +83,7 @@ namespace MessagePack.Controllers
         // POST: api/TodoItems
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
-        [HttpPost]
+        [HttpPost("Messagepack")]
         public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem todoItem)
         {
             byte[] bytes = MessagePackSerializer.Serialize(todoItem);
@@ -96,7 +96,7 @@ namespace MessagePack.Controllers
         }
 
         // DELETE: api/TodoItems/5
-        [HttpDelete("{id}")]
+        [HttpDelete("Messagepack/{id}")]
         public async Task<ActionResult<TodoItem>> DeleteTodoItem(long id)
         {
             var todoItem = await _context.TodoItems.FindAsync(id);

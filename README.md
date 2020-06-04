@@ -1,5 +1,5 @@
 # Message Pack - .NeT Core
-[![Build Status](https://img.shields.io/azure-devops/build/reginaldo-aguiar/1836aaee-b06e-4faf-a8e5-e9b75ca4e245/1?style=plastic)](https://dev.azure.com/reginaldo-aguiar/MessagePack/_build)
+[![Build status](https://dev.azure.com/reginaldo-aguiar/MessagePack/_apis/build/status/messagepack%20-%201%20-%20CI)](https://dev.azure.com/reginaldo-aguiar/MessagePack/_build/latest?definitionId=3)
 [![Build Status](https://img.shields.io/nuget/v/messagePack?style=plastic)](https://www.nuget.org/packages/MessagePack/)
 [![Build Status](https://img.shields.io/github/issues/reginaldobrz/MessagePack_CSharp?style=plastic)](https://github.com/reginaldobrz/MessagePack_CSharp/issues)
 [![Build Status](https://img.shields.io/github/issues-pr/reginaldobrz/MessagePack_CSharp?style=plastic)](https://github.com/reginaldobrz/MessagePack_CSharp/pulls)

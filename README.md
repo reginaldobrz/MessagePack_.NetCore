@@ -20,6 +20,7 @@ Install-Package MessagePack
 and this to give you some warnings about mistakes or fix suggestions
 ```
 Install-Package MessagePackAnalyzer
+
 ```
 
 ##  🧤 Hands On

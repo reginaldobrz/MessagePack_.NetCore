@@ -6,7 +6,7 @@
 
 🤠 This project is a simple proof of concept about the message pack strategy to compact our data, lets get your pop corn and enjoy it!
 
-## Install 💻
+##  💻 Install
 
 ```
 Install-Package MessagePack
@@ -22,7 +22,7 @@ and this to give you some warnings about mistakes or fix suggestions
 Install-Package MessagePackAnalyzer
 ```
 
-## Hands On 🧤
+##  🧤 Hands On
 
 First Of all we need the class annotate ```[MessagePackObject]``` but there is not all, the values needs to have annotate to, ok? see
 
@@ -66,7 +66,7 @@ var json = MessagePackSerializer.ConvertToJson(bytes);
 
 That all, see, simple ham! Feel free to contribute!
 
-## WHERE I FOUND THIS?
+## 💡 WHERE I FOUND THIS?
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
 <table>

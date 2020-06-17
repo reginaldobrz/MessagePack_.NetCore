@@ -2,7 +2,7 @@
 [![Build status](https://dev.azure.com/reginaldo-aguiar/MessagePack/_apis/build/status/messagepack%20-%201%20-%20CI)](https://dev.azure.com/reginaldo-aguiar/MessagePack/_build/latest?definitionId=3)
 [![Build Status](https://img.shields.io/nuget/v/messagePack?style=plastic)](https://www.nuget.org/packages/MessagePack/)
 [![Build Status](https://img.shields.io/github/issues/reginaldobrz/MessagePack_CSharp?style=plastic)](https://github.com/reginaldobrz/MessagePack_CSharp/issues)
-[![Build Status](https://img.shields.io/github/issues-pr/reginaldobrz/MessagePack_CSharp?style=plastic)](https://github.com/reginaldobrz/MessagePack_CSharp/pulls)
+[![Build Status](https://img.shields.io/github/issues-pr/reginaldobrz/MessagePack_CSharp?style=plastic)](https://github.com/reginaldobrz/MessagePack_CSharp/pulls) 
 
 🤠 This project is a simple proof of concept about the message pack strategy to compact our data. Go get your pop corn and enjoy it!
 

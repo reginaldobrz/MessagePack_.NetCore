@@ -7,7 +7,7 @@
 🤠 This project is a simple proof of concept about the message pack strategy to compact our data. Go get your pop corn and enjoy it! 
 
 
-##  💻 Install
+##  💻 Installl
 
 ```
 Install-Package MessagePack

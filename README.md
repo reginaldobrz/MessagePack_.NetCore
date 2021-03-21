@@ -66,7 +66,7 @@ Or
 var json = MessagePackSerializer.ConvertToJson(bytes);
 ```
 
-That all, see, simple ham! Feel free to contribute!
+That all, see, simple ham! Feel free to contributee!
 
 ## 💡 WHERE I FOUND THIS?
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->

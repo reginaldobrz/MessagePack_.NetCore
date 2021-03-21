@@ -12,7 +12,6 @@ namespace MessagePack.Models
             : base(options)
         {
         }
-
         public DbSet<TodoItem> TodoItems { get; set; }
     }
 }
